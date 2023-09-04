@@ -1,0 +1,106 @@
+
+.contain {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+
+
+  .one {
+    padding-left: 4rem;
+    
+  }
+  
+  .img {
+    width: 100%;
+    height: 700px;
+    object-fit: contain;
+    animation: move 2s infinite ease alternate;
+    
+  }
+  
+  @keyframes move {
+      from {
+          transform: translateY(-10px);
+      }
+  
+      to {
+          transform: translateY(10px) scale(1.02);
+      }
+  }
+  
+  
+  .title {
+    font-size: 72px;
+    background: linear-gradient(to bottom, #666DF2, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  transparent;
+  }
+  
+  
+  .item .desc {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: 6rem;
+  }
+  
+  .button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: #666DF2;
+    color: white;
+    width: max-content;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: #333;
+    transition: 0.2s ease-in;
+  }
+
+
+ /* Add media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 968px) {
+    .contain {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+    
+    .item {
+      flex: 1;
+      text-align: center; /* Center content vertically and horizontally */
+      padding: 2rem;
+    }
+  
+    .img {
+      height: auto;
+      max-width: 100%;
+      object-fit: contain; /* Remove grayscale filter on smaller screens */
+    }
+  
+    .title {
+      font-size: 48px; /* Reduce font size for smaller screens */
+    }
+
+    .button {
+        display: block;
+        margin: auto;
+    }
+  }
+  
+
