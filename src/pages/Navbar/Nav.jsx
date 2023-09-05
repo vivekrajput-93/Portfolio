@@ -39,7 +39,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a to="/coin" onClick={handleLinkClick}>
+            <a to="#skills"  onClick={() => handleLinkClick('skills')}>
               Skills
             </a>
           </li>
