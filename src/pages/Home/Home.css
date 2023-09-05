@@ -53,6 +53,7 @@
     font-weight: 300;
     line-height: 2rem;
     margin-left: 6rem;
+    color: #333;
   }
   
   .button {
@@ -68,10 +69,18 @@
   }
   
   .button:hover {
-    background-color: white;
-    color: #333;
+    background-color: #333;
+    color: white;
     transition: 0.2s ease-in;
   }
+
+  .hand {
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+  }
+  
+  
 
 
  /* Add media query for screens smaller than 768px (adjust as needed) */
@@ -83,18 +92,18 @@
     
     .item {
       flex: 1;
-      text-align: center; /* Center content vertically and horizontally */
+      text-align: center; 
       padding: 2rem;
     }
   
     .img {
       height: auto;
       max-width: 100%;
-      object-fit: contain; /* Remove grayscale filter on smaller screens */
+      object-fit: contain;
     }
   
     .title {
-      font-size: 48px; /* Reduce font size for smaller screens */
+      font-size: 48px; 
     }
 
     .button {

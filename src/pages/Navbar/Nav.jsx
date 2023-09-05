@@ -8,7 +8,18 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
 
-  const handleLinkClick = () => setClick(false);
+  const handleLinkClick = (sectionId) => {
+    setClick(false);
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 50, // Adjust the offset as needed
+        behavior: "smooth",
+      });
+    }
+  };
+
+
 
   return (
     <div className="header">
@@ -18,12 +29,12 @@ function Navbar() {
         </h1>
         <ul className={click ? "active" : "nav-menu"}>
           <li>
-            <a to="#" onClick={handleLinkClick}>
+            <a href="#home" onClick={() => handleLinkClick('home')}>
               Home
             </a>
           </li>
           <li>
-            <a to="#about" onClick={handleLinkClick}>
+            <a href="#about" onClick={() => handleLinkClick('about')}>
               About
             </a>
           </li>

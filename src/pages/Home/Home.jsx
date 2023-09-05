@@ -1,12 +1,15 @@
 import Hero from "../../assets/27.png";
 import "./Home.css";
 import DownloadButton from "../../components/DownloadButton";
+import hand from "../../assets/waving-hand-sign.svg" ;
 
 export default function Home() {
   return (
-    <div className="contain">
+    <div id="home" className="contain">
       <div className="item one">
-        <h1 className="title">Hi! Vivek Singh</h1>
+        <h1 className="title">Hi! Vivek Singh
+        <img src={hand} alt="hand" className="hand" />
+        </h1>
         <p className="desc">
           Front-end Developer 
           <br />

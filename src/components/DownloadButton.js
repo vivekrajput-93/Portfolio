@@ -15,7 +15,7 @@ function DownloadButton() {
   };
 
   return (
-    <button className='button' onClick={handleDownload}>Download Resume</button>
+    <button className='button' onClick={handleDownload}>Download Resume  </button>
   );
 }
 
