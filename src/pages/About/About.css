@@ -57,6 +57,7 @@ h1 {
     width: 60%;
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .flex-button {
@@ -83,21 +84,6 @@ h1 {
         row-gap: 2rem;
     }
 
-    #about {
-        margin-top: 3rem;
-    }
-
-    .info {
-        display: flex;
-        justify-content: center;
-    }
-
-    .about__desc {
-        display: block;
-        margin: auto;
-        margin-bottom: 2rem;
-    }
-
     .grid-img {
         width: 100%;
     }
@@ -108,7 +94,7 @@ h1 {
 }
 
 /* Media query for screens smaller than 480px */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     h1 {
         font-size: 40px;
     }
@@ -122,10 +108,11 @@ h1 {
         font-size: 1rem;
         display: block;
         margin: auto;
-        margin-bottom: 2rem;
     }
 
     .info {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 2rem;
+        margin-bottom: 2rem;
     }
 }

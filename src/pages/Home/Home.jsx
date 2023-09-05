@@ -8,7 +8,6 @@ export default function Home() {
     <div id="home" className="contain">
       <div className="item one">
         <h1 className="title">Hi! Vivek Singh
-        <img src={hand} alt="hand" className="hand" />
         </h1>
         <p className="desc">
           Front-end Developer 

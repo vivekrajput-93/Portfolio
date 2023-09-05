@@ -52,7 +52,7 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 2rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
     color: #333;
   }
   
@@ -65,7 +65,7 @@
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
   }
   
   .button:hover {
@@ -112,4 +112,42 @@
     }
   }
   
+
+  /* Add media query for screens smaller than 480px (phone screens) */
+@media (max-width: 480px) {
+  .contain {
+    flex-direction: column-reverse;
+  }
+
+  .item.one {
+    padding-left: 0; /* Remove left padding for smaller screens */
+  }
+
+  .img {
+    height: auto; /* Adjust image height for smaller screens */
+    max-width: 100%; /* Make sure the image doesn't overflow its container */
+    width: 100%;
+  }
+
+  .title {
+    font-size: 36px; /* Reduce font size for phone screens */
+  }
+
+  .item .desc {
+    font-size: 16px; /* Reduce font size for phone screens */
+    margin-left: 0; /* Remove left margin for smaller screens */
+  }
+
+  .button {
+    padding: 10px 20px; /* Adjust button padding for smaller screens */
+    font-size: 1rem; /* Reduce font size for phone screens */
+    margin-left: 0; /* Remove left margin for smaller screens */
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+
 
