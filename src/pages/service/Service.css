@@ -1,0 +1,180 @@
+.service__container {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+    margin: 5rem;
+} 
+
+.service__content {
+    position: relative;
+    /* border: 1px solid #333; */
+    padding: 6rem 0 2rem 2.5rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+}
+
+.service__title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.service__icon {
+    display: block;
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 1rem;
+  }
+
+
+
+.services__button {
+    color: gray;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    cursor: pointer;
+}
+
+.service__button-icon {
+    font-size: 1.2rem;
+    transition: 0.3s;
+
+}
+
+.services__button:hover .service__button-icon {
+    transform: translateX(00.25rem);
+}
+
+.service__modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+} 
+
+.service__modal-content {
+    width: 500px;
+    position: relative;
+    background-color: #fff;
+    padding: 4rem 2.5rem 2.5rem;
+    border-radius: 10px
+
+}
+
+.service__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+.services__modal-title,
+.services__modal-description {
+    text-align: center;
+}
+
+.services__modal-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.services__modal-description {
+    font-size: 1.1rem;
+    color: gray;
+    padding: 0 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.services__modal-services {
+    line-height: 2.5rem;
+}
+
+.services__modal-service {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.services__modal-icon {
+    font-size: 1.2rem;
+    color: var(--bg-color);
+}
+
+.services__modal-info {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* active modal */
+
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+/* Add these media queries to your existing CSS */
+
+@media screen and (max-width: 968px) {
+    .service-section {
+        position: relative;
+        top: 10rem;
+    }
+
+    .service__container {
+        grid-template-columns: repeat(3, 218px);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .service__container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+        
+    }
+
+    .service__content {
+        padding: 3rem 0.5rem 1.25rem 1.5rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .service-section {
+        position: relative;
+        top: 10rem;
+    }
+
+    .service__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+
+}
+

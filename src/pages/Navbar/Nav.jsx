@@ -39,22 +39,22 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a to="#skills"  onClick={() => handleLinkClick('skills')}>
+            <a href="#skills"  onClick={() => handleLinkClick('skills')}>
               Skills
             </a>
           </li>
           <li>
-            <a to="/exchange" onClick={handleLinkClick}>
+            <a href="#service" onClick={() => handleLinkClick('service')}>
               Service
             </a>
           </li>
           <li>
-            <a to="/exchange" onClick={handleLinkClick}>
-              Project
+            <a href="#projects" onClick={() => handleLinkClick('projects')}>
+              Projects
             </a>
           </li>
           <li>
-            <a to="/exchange" onClick={handleLinkClick}>
+            <a href="#contact" onClick={() => handleLinkClick('contact')}>
               Contact
             </a>
           </li>

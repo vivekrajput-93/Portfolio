@@ -10,10 +10,13 @@
 
 .skills-content {
     background-color: #fff;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     padding : 2rem 4rem;
     border-radius: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
+
 
 .skills-title {
     font-size: 1.2rem;
@@ -26,6 +29,7 @@
    display: flex;
    justify-content: center;
    column-gap: 20px;  
+   
 }
 
 .box-one {
@@ -35,15 +39,16 @@
 }
 
 .bx {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--bg-color);
 }
 
 .skill-box {
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* For medium screens */
@@ -60,11 +65,12 @@
 
     .skills {
         position: relative;
-        top: 21rem;
+        top: 6rem;
     }
   
     .box-one {
       grid-template-columns: repeat(2, 1fr);
+      
     }
   }
   
@@ -82,7 +88,7 @@
 
     .skills {
         position: relative;
-        top: 28rem;
+        top: 6rem;
     }
   
     .box-one {

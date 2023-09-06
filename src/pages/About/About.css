@@ -4,7 +4,6 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
     align-items: center;
-    height: 80vh;
 }
 
 .grid-img {
@@ -32,10 +31,11 @@ h1 {
 }
 
 .info__box {
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .about-icon {
@@ -70,6 +70,7 @@ h1 {
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .flex-button:hover {
@@ -91,7 +92,15 @@ h1 {
 
     .about__data {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
+
+
+
 }
 
 /* Media query for screens smaller than 480px */
@@ -116,5 +125,6 @@ h1 {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 2rem;
         margin-bottom: 2rem;
+        width: 90%;
     }
 }
