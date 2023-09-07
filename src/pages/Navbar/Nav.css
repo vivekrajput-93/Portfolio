@@ -72,7 +72,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:968px) {
     .hamburger {
         display: flex;
     }

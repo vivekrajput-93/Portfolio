@@ -49,7 +49,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={() => handleLinkClick('projects')}>
+            <a href="#project" onClick={() => handleLinkClick('project')}>
               Projects
             </a>
           </li>

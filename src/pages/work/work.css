@@ -1,0 +1,143 @@
+.work-section {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+
+.work__filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.75rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: gray;
+    width: max-content;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+
+
+.work__nav {
+    color: gray;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.work__nav:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+
+
+.work__container {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.work__card {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.work__title {
+    margin-bottom: 0.5rem;
+}
+
+.work__img {
+    width: 295px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.work__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__button {
+    color: gray;
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.work-button-icon {
+    font-size: 1.2rem;
+    transition: 0.3s;
+    color: gray;
+
+}
+
+.work__button:hover .work-button-icon {
+    transform: translateX(00.25rem);
+}
+
+.active-work {
+        background-color: #333;
+        color: #fff;
+        border-radius: 0.5rem;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+    .work-section {
+        position: relative;
+        top: 10rem;
+    }
+     .work__container {
+        gap: 1.25rem;
+        grid-template-columns: repeat(2, max-content);
+     }
+
+     .work__card {
+        padding: 1rem;
+     }
+
+     .work__img {
+        margin-bottom: 0.75rem;
+     }
+}
+
+
+@media screen and (max-width: 768px) {
+    .work__container {
+        grid-template-columns: max-content;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .work__container {
+        grid-template-columns: 0.8fr;
+        margin-top: 2rem;
+    }
+
+    .work__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+     .work__item {
+        font-size: 1rem;
+     }
+
+     .work__filters {
+        display: none;
+     }
+}
+
