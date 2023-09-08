@@ -95,31 +95,31 @@ const Service = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    I develop the user Interface.
+                                User-Centered Design
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    Web Page Developement.
+                                Responsive Web Design
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    I create UI/UX element Interactions.
+                                    Visual and Interactive Design
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Responsive Web Design.
+                                User Interface Design Patterns
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Cross-Browser Compatibility
+                                User Feedback Integrated Design
                                 </p>
                             </li>
                     </ul>
@@ -151,19 +151,19 @@ const Service = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    I develop the user Interface.
+                                    Full-stack Development.
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    Web Page Developement.
+                                    User Authentication and Authorisation.
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    I create UI/UX element Interactions.
+                                    API and RESTful API Integration
                                 </p>
                             </li>
                             <li className="services__modal-service">
@@ -175,7 +175,7 @@ const Service = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Cross-Browser Compatibility
+                                Cross-Platform Compatibility
                                 </p>
                             </li>
                     </ul>
