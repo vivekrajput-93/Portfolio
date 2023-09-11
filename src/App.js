@@ -19,7 +19,7 @@ function App() {
     <Skills />
     <Service />
     <Work />
-    
+    <Contact />
 
     </div>
   );
