@@ -149,7 +149,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
     .contact-section {
         position: relative;
         top: 12rem;
@@ -162,10 +162,10 @@
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
     .contact-section {
         position: relative;
-        top: 12rem;
+        top: 32rem;
     }
 
     .contact__title {
