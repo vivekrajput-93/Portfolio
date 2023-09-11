@@ -11,7 +11,6 @@ const Skills = () => {
 
       <div className="skills-container">
         <Frontend />
-
         <Backend />
       </div>
     </section>

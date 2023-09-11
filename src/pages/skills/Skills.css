@@ -1,3 +1,6 @@
+
+
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 350px);
@@ -65,7 +68,7 @@
 
     .skills {
         position: relative;
-        top: 6rem;
+        top: 8rem;
     }
   
     .box-one {
@@ -75,7 +78,7 @@
   }
   
   /* For small screens (smartphones) */
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 480px) {
     .skills-container {
       grid-template-columns: repeat(1, 100%);
       gap: 10px;
@@ -84,11 +87,13 @@
   
     .skills-content {
       padding: 1rem;
+      margin-top: 2rem;
     }
 
     .skills {
         position: relative;
-        top: 6rem;
+        top: 28rem;
+        
     }
   
     .box-one {
@@ -99,4 +104,7 @@
       text-align: center;
     }
   }
+
+
+
   
