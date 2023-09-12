@@ -21,7 +21,7 @@ export const data = [
         id: 2,
         image : work2,
         title : "Crypto App",
-        category : "Website",
+        category : "Web Application",
         previewLink : "https://crypto-app-coin-hub.vercel.app/",
         demoLink : "https://github.com/vivekrajput-93/coinHub.git"
     },
@@ -29,7 +29,7 @@ export const data = [
         id: 3,
         image : work3,
         title : "Car-Rental App",
-        category : "Website",
+        category : "Web Application",
         previewLink : "https://car-hub-three-chi.vercel.app/",
         demoLink : "https://github.com/vivekrajput-93/carHub.git"
     },
@@ -37,7 +37,7 @@ export const data = [
         id: 4,
         image : work4,
         title : "Shortly",
-        category : "Web Application",
+        category : "Website",
         previewLink : "https://shortly-u394.vercel.app/",
         demoLink : "https://github.com/vivekrajput-93/shortly.git",
     },    
@@ -56,7 +56,7 @@ export const data = [
         id: 6,
         image : work6,
         title : "Todo-List",
-        category : "Web Application",
+        category : "Website",
         previewLink : "https://to-do-list-react-delta-seven.vercel.app/",
         demoLink : "https://github.com/vivekrajput-93/ToDo-List-React-.git"
     },
