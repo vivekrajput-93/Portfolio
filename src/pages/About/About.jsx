@@ -18,7 +18,7 @@ const About = () => {
               <Info />
 
               <p className="about__desc">
-                Frontend Developer, I created web pages with UI / UX  User interface, I have years of experience and many projects based on frond-end techs.
+                Frontend Developer, I created web pages with UI / UX  User application, I have years of experience and many projects based on frond-end techs.
               </p>
 
               <a href='https://github.com/vivekrajput-93' target='_blank' className='flex-button'>Github Profile</a>
