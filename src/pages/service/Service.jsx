@@ -32,7 +32,7 @@ const Service = () => {
 
                     <h3 className="services__modal-title">Web Designer</h3>
                     <p className="services__modal-description">
-                        Service with more than 2+ years of experience.Providing quality work.
+                        Service with more than 2+ learning years of experience.Providing quality work.
                     </p>
 
                     <ul className="services__modal-services grid">

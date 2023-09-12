@@ -78,7 +78,7 @@ const Contact = () => {
 
             <div className="contact__form-div">
                 <label className="contact__form-tag">Email:</label>
-                <input type="email" name="email"  className="contact__form-input" placeholder="Enter your name"/>
+                <input type="email" name="email"  className="contact__form-input" placeholder="Enter your email"/>
             </div>
 
 
