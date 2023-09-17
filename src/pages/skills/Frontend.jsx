@@ -36,8 +36,8 @@ const Frontend = () => {
             <span className="info__subtitle">Intermediate</span>
           </div>{" "}
           <div className="skill-box">
-            <i class="bx bx-cog"></i>
-            <h3 className="info__title">API</h3>
+            <i class="bx bxl-redux"></i>
+            <h3 className="info__title">Redux</h3>
             <span className="info__subtitle">Intermediate</span>
           </div>
         </div>

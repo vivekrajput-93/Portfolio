@@ -31,8 +31,8 @@ const Backend = () => {
             <span className="info__subtitle">Basic</span>
           </div>{" "}
           <div className="info__box">
-            <i class="bx bxl-github"></i>
-            <h3 className="info__title">VS-Code</h3>
+            <i class="bx bx-cog"></i>
+            <h3 className="info__title">API</h3>
             <span className="info__subtitle">Advance</span>
           </div>{" "}
           <div className="info__box">
