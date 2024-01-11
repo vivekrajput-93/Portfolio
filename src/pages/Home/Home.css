@@ -34,11 +34,12 @@
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 3rem;
   background: linear-gradient(to bottom, #666df2, #bbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-left: 0;
+  position: relative;
+  left: 1.5rem;
 }
 
 .item .desc {

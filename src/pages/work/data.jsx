@@ -48,8 +48,8 @@ export const data = [
         image : work5,
         title : "Sunny Landing Page",
         category : "UI/UX Design",
-        previewLink : "https://github.com/vivekrajput-93/Sunny-Agency-Landing-Frontend-Mentor.git",
-        demoLink : "https://sunny-agency-landing-frontend-mentor.vercel.app/"
+        demoLink : "https://github.com/vivekrajput-93/Sunny-Agency-Landing-Frontend-Mentor.git",
+        previewLink : "https://sunny-agency-landing-frontend-mentor.vercel.app/"
     },
 
     {
