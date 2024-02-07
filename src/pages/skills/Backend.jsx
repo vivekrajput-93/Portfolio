@@ -9,7 +9,7 @@ const Backend = () => {
         <div className="box-one">
           <div className="info__box">
           <i class='bx bxl-nodejs' ></i>
-            <h3 className="info__title">Node JS</h3>
+            <h3 className="info__title">Node</h3>
             <span className="info__subtitle">Basic</span>
           </div>{" "}
           <div className="info__box">
@@ -18,9 +18,9 @@ const Backend = () => {
             <span className="info__subtitle">Basic</span>
           </div>{" "}
           <div className="info__box">
-            <i class="bx bxl-firebase"></i>
-            <h3 className="info__title">Firebase</h3>
-            <span className="info__subtitle">Intermediate</span>
+          <i class='bx bxl-postgresql'></i>
+            <h3 className="info__title">Postgre</h3>
+            <span className="info__subtitle">Basic</span>
           </div>
         </div>
 
@@ -31,14 +31,14 @@ const Backend = () => {
             <span className="info__subtitle">Basic</span>
           </div>{" "}
           <div className="info__box">
-            <i class="bx bx-cog"></i>
-            <h3 className="info__title">API</h3>
-            <span className="info__subtitle">Advance</span>
+            <i class="bx bxl-docker"></i>
+            <h3 className="info__title">Docker</h3>
+            <span className="info__subtitle">Basic</span>
           </div>{" "}
           <div className="info__box">
           <i class='bx bxl-mongodb'></i>
             <h3 className="info__title">MonogDB</h3>
-            <span className="info__subtitle">Basic</span>
+            <span className="info__subtitle">Intermeidate</span>
           </div>
         </div>
 
