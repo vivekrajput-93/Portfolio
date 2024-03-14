@@ -1,48 +1,57 @@
-
 :root {
-
- 
     --primary: #118c4f;
-    
     --background: #f5f8ff;
-    
-    }
-
-.header {
+  }
+  
+  .header {
     width: 100%;
     height: 90px;
-    background: #fff;
+    background-color: transparent;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 10;
-}
-
-.header .container {
+    overflow: hidden; /* Ensures the blurred background doesn't overflow */
+  }
+  
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+    z-index: -1; /* Positions the blurred background behind the navbar content */
+  }
+  
+  .container {
+    position: relative; /* Establishes a new stacking context */
+    z-index: 1; /* Ensures the navbar content is above the blurred background */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     height: 100%;
-}
-
-.vivek {
+  }
+  
+  .vivek {
     margin-left: 2rem;
-    color: #666DF2;
+    color: #666df2;
     text-transform: uppercase;
-    font-size: 3 rem;
-}
-
-.nav-menu {
+    font-size: 3rem;
+  }
+  
+  .nav-menu {
     display: flex;
-}
-
-.nav-menu li {
+  }
+  
+  .nav-menu li {
     padding: 0 1rem;
     cursor: pointer;
-}
-
-.btn {
+  }
+  
+  .btn {
     padding: 14px 32px;
     margin-top: 1rem;
     border: 1px solid var(--primary);
@@ -52,60 +61,60 @@
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
-}
-
-.btn:hover {
-    box-shadow: rgb(0 0 0  / 25%) 0px 8px  24px;
+  }
+  
+  .btn:hover {
+    box-shadow: rgb(0 0 0 / 25%) 0px 8px 24px;
     background-color: var(--background);
     color: var(--primary);
   }
-
-
-.nav-menu a {
+  
+  .nav-menu a {
     font-size: 1rem;
     font-weight: 600;
     color: #333;
-}
-
-.hamburger {
+  }
+  
+  .hamburger {
     display: none;
     cursor: pointer;
-}
-
-@media screen and (max-width:968px) {
+  }
+  
+  @media screen and (max-width: 968px) {
     .hamburger {
-        display: flex;
+      display: flex;
     }
-
-    .nav-menu li{
-        display: none;
-        visibility: hidden;
+  
+    .nav-menu li {
+      display: none;
+      visibility: hidden;
     }
-
+  
     .btn {
-        width: 80%;
-        margin: .8rem;
+      width: 80%;
+      margin: 0.8rem;
     }
-
+  
     .active {
-        position: absolute;
-        flex-direction: column;
-        top: 90px;
-        right:0;
-        width: 50%;
-        height: 200vh;
-        transition: 0.6s;
-        z-index: 2;
-        background: #fff;
-        border-left: 1px solid #eee;
-        display: flex;
-        align-items: center;
-        justify-content: start;
+      position: absolute;
+      flex-direction: column;
+      top: 90px;
+      right: 0;
+      width: 50%;
+      height: 200vh;
+      transition: 0.6s;
+      z-index: 2;
+      background: #fff;
+      border-left: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: start;
     }
-    .active li{
-        padding: 15px;
-        font-weight: 600;
-        cursor: pointer;
+  
+    .active li {
+      padding: 15px;
+      font-weight: 600;
+      cursor: pointer;
     }
-
-}
+  }
+  
