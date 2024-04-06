@@ -44,6 +44,10 @@
     cursor: pointer;
 }
 
+.nav-menu a:hover {
+    color : #666DF2;
+}
+
 .btn {
     padding: 14px 32px;
     margin-top: 1rem;
