@@ -9,13 +9,18 @@
   position: relative;
 }
 
-.item {
-  flex: 1;
-  display: flex;
+.item-one {
+  display:  flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 1rem;
+  padding: 0rem 7rem;
 }
 
+.item-one h3 {
+  color: #666df2;
+  font-size: 1.4rem;
+  
+}
 
 
 .img {
@@ -39,7 +44,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
-  left: 1.5rem;
+  width: fit-content;
 }
 
 .item .desc {
@@ -55,11 +60,11 @@
   cursor: pointer;
   background-color: #666df2;
   color: white;
-  width: max-content;
+  width: fit-content;
   border: none;
   border-radius: 5px;
-  font-size: 1.2rem;
-  margin-left: 10rem;
+  font-size: 1rem;
+;
 }
 
 .button:hover {

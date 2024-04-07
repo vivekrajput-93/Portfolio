@@ -13,7 +13,9 @@
     align-items: center;
 }
 
-
+.about__me {
+    font-size: 2.2rem;
+}
 
 .grid-img {
     width: 100%;
@@ -64,9 +66,9 @@ h1 {
 
 .about__desc {
     padding: 0rem, 4rem 0 0;
-    width: 62%;
+    width: 80%;
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
