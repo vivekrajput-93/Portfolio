@@ -10,6 +10,7 @@ const Service = () => {
     }
 
   return (
+    
     <section className="service-section " id="service">
       <h1 className="about__me">Service</h1>
       <h1 className="subtitle">What I offer!</h1>

@@ -135,6 +135,11 @@
 /* Add these media queries to your existing CSS */
 
 @media screen and (max-width: 968px) {
+
+    .service__content {
+        width: 300px;
+    }
+
     .service-section {
         position: relative;
         top: 10rem;
